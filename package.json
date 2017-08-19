@@ -1,0 +1,31 @@
+{
+  "name": "sqlz-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-reitz/sqlz-review.git"
+  },
+  "keywords": [],
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyler-reitz/sqlz-review/issues"
+  },
+  "homepage": "https://github.com/tyler-reitz/sqlz-review#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql2": "^1.3.5",
+    "sequelize": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  }
+}
