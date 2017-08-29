@@ -1,14 +1,14 @@
 module.exports = function (sequelize, DataTypes) {
   const Todos = sequelize.define('Todos', {
-    name: {
+    task_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    difficulty: {
+    task_difficulty: {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    complete: {
+    task_complete: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false

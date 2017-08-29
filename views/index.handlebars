@@ -1,0 +1,19 @@
+<h1>Todos</h1>
+
+<ul>
+  {{#each todos}}
+    <li>{{ this.task_name }}</li>
+  {{/each}}
+</ul>
+
+<form method="POST" action="/add?_mehotd=POST">
+  <label for="task_name">
+    TASK NAME
+    <input type="text" name="task_name" id="task_name" placeholder="do stuff">
+  </label>
+  <label for="task_difficulty">
+    Task Difficulty
+    <input type="range" name="task_difficulty" id="task_difficulty">
+  </label>
+  <button type="submit">📋</button>
+</form>
